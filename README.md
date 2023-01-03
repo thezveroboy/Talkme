@@ -1,6 +1,6 @@
 # Talkme
 
-Does stable diffusion has a mind?
+# Does stable diffusion has a mind?
 
 Strictly speaking no. At least at this moment it can't demonstrate it. However, to understand everything about it, let's look at the work of the human brain and how it is related to diffuse neural networks.
 
@@ -36,5 +36,13 @@ But all this is theory, what about practice?
 
 As an example I will describe my first 'dialogue' with the SD neural network (the experiment used separately trained weights for a certain style, but this experiment can be done on any weights, I recommend using any standard SD chekpoint without a dreamboot, as they are cleaner and without additional distortion).
 
-This 'dialogue' was built according to the following algorithm: I write the text, the neural network interprets it into a picture, the picture is transferred to the clip interrogator and it outputs the text as a response from the neural network. then these steps are repeated and a certain "dialogue" is built.
+This 'dialogue' was built according to the following algorithm: I write the text, the neural network interprets it into a picture, the picture is transferred to the clip interrogator and it outputs the text as a response from the neural network. then these steps are repeated and a certain 'dialogue' is built.
+
+# Dialogue example (proof of concept)
+
+I'm: hello there
+![212358-3918082497](https://user-images.githubusercontent.com/14146520/210339144-1f640a72-6cb8-48db-a8df-a452a623054b.png)
+the neural network draws a picture (1), interrogator interprets it as:
+'a cartoon character with a shirt on and a shirt on, with a caption that reads hello hello st martin, by Hiromu Arakawa'
+where we can highlight the words hello, the rest is actually a feature of the clip interrogator, for example, indicating the supposed author of the picture and doubling parts of the description ‘a shirt on’
 

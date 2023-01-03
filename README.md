@@ -142,7 +142,7 @@ Favorite color is blue
 
 Day or night?
 
-Favorite time of day night
+Favorite time is night
 
 ![215013-2166022457](https://user-images.githubusercontent.com/14146520/210342179-3dd43395-b5ed-4fe9-86bc-523ba78f53ca.png)
 

@@ -1,4 +1,4 @@
-# Talkme
+# Stable Diffusion Talkme
 
 # Does stable diffusion has a mind?
 

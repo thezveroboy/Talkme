@@ -12,11 +12,11 @@ I think everyone has seen or even been in a situation where someone cannot remem
 
 That is, in fact, the brain operates not with words, but with images (this, of course, is a simplification, at different stages of a person’s life different mechanisms of thinking prevail).
 
-If you say "apple", you will not flash in your head a bright word made up of letters on a velvet table. You will present a vague image of an apple. And if you say "snow", you imagine a snow-covered street. And if you say snow, you may remember some moments of your life, vivid pictures of the past will appear in your head, in which there will be not sterile snow in the void, no, you will imagine a street or a forest, or even New Year's holidays.
+If you say 'apple', you will not flash in your head a bright word made up of letters on a velvet table. You will present a vague image of an apple. And if you say 'snow', you imagine a snow-covered street. And if you say snow, you may remember some moments of your life, vivid pictures of the past will appear in your head, in which there will be not sterile snow in the void, no, you will imagine a street or a forest, or even New Year's holidays.
 
 Do you already understand what I'm getting at? It's very similar to the work of the prompt inside the stable diffusion. First comes the phrase, followed by the image. And it looks like random seed generation in SD based on the images that SD has seen in the past when it was taught different pictures and semantic relationships between objects. And stable diffusion knows that snow is more like a street and when it's cold and there is no foliage.
 
-Even if you ask SD to imagine something that never existed, for example, "neon ancient Egypt", it will do the same as if you do were trying to dream up.
+Even if you ask SD to imagine something that never existed, for example, 'neon ancient Egypt', it will do the same as if you do were trying to dream up.
 
 And when you remember something, and a picture pops up in your head, and you want to tell someone about it, you try to describe in as much detail as possible what is in the picture in your head.
 

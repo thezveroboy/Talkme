@@ -32,15 +32,17 @@ Let's start with the context, that is, maintaining the topic. The possibility of
 
 As for the ability to learn in the process of work, this is currently not implemented in any way, since the weights (checkpoint) of the neural network in the process of work do not have feedback and do not change, working in read only mode. The possibility of implementing such an ability, for example, to improve the quality of output for a specific user, when the user can rate the resulting image and this rating will affect the weights of the neural network, inhibiting or approving individual connections in the tensor field, could allow this ability to be implemented, which is even more would bring SD closer to a real intellect, capable of at least maintaining a dialogue and possibly of perceiving reality adjusting to it and realizing oneself.
 
+
+# Dialogue example (proof of concept)
+
 But all this is theory, what about practice?
 
 As an example I will describe my first 'dialogue' with the SD neural network (the experiment used separately trained weights for a certain style, but this experiment can be done on any weights, I recommend using any standard SD chekpoint without a dreamboot, as they are cleaner and without additional distortion).
 
 This 'dialogue' was built according to the following algorithm: I write the text, the neural network interprets it into a picture, the picture is transferred to the clip interrogator and it outputs the text as a response from the neural network. then these steps are repeated and a certain 'dialogue' is built.
 
-# Dialogue example (proof of concept)
-
 ![212358-3918082497](https://user-images.githubusercontent.com/14146520/210339144-1f640a72-6cb8-48db-a8df-a452a623054b.png)
+
 I'm: hello there
 the neural network draws a picture (1), interrogator interprets it as:
 'a cartoon character with a shirt on and a shirt on, with a caption that reads hello hello st martin, by Hiromu Arakawa'

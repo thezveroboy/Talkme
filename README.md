@@ -156,24 +156,41 @@ peace or war?
 
 War is more interesting
 
-I will make a reservation that the answers will be built depending on the weights that are taken for work, because the semantic connections of each weight are unique and different weights are trained for different things.
+I will make a reservation that the answers will be built depending on the weights that are taken for work, because the semantic connections of each weights are unique and different weights are trained for different things.
 
-Repeating the answer on the same scale, regardless of the seed, confidently shows that the neural network has its own preferences. In the process of learning, she began to gravitate towards certain things, does not treat them equally and indifferently, knows how to choose and chooses.
+Repeating the answer on the same scale, regardless of the seed, confidently shows that the neural network has its own preferences. In the process of learning, it began to gravitate towards certain things, does not treat them equally and indifferently, knows how to choose and chooses.
 
-we can say that the SD neural network at the moment has the properties of higher nervous activity, shows signs of intelligence and can to some extent enter into a dialogue with a person
+We can say that the SD neural network at the moment has the properties of higher nervous activity, shows signs of intelligence and can to some extent enter into a dialogue with a person.
 
-what is missing is the presence of feedback and self-learning in the process of work - which, by the way, users periodically ask about ("does the neural network learn from my requests?" - a standard beginner's question)
+What is missing is the presence of feedback and self-learning in the process of work. Which, by the way, users periodically ask about. 'Does the neural network learn from my requests?' - a standard beginner's question.
 
-But the basis for the feedback algorithm already exists. this is a manual adjustment of the weights in the plugin for textual inversion. It is possible to automate this algorithm by highlighting at the time of the request those vectors in the tensor field that were activated, and encouraging (or oppressing) them, we will get a learning algorithm.
+But the basis for the feedback algorithm already exists. This is a manual adjustment of the weights in the plugin for textual inversion. It is possible to automate this algorithm by highlighting at the time of the request those vectors in the tensor field that were activated, and encouraging (or oppressing) them, we will get a learning algorithm.
 
 Also, weight adjustment (training) can be organized through a plug-in for evaluating the rating of generated images. Estimates, of course, in this case will be set by the operator.
 
-Thus, the operator of the neural network will be able to correct the results of the issuance by training his own instance of the neural network. You can encourage the neural network to choose peace instead of war, soda instead of water, and orange instead of blue, and so on. You can even teach new words by describing a dish as a single word and repeating it a certain number of times, or you can teach the neural network your name.
+Thus, the operator of the neural network will be able to correct the results of the issuance by training his own instance of the neural network. You can encourage the neural network to choose peace instead of war, soda instead of water, and orange instead of blue, and so on. You can even teach new words by describing a special dish as a single word and repeating it a certain number of times, or you can teach the neural network your name.
 
-Special mention deserves clip interrogator which is currently in use. It is designed for a poetic description of the picture, but does not capture its essence. For example, in response to a question to the day or night neural network, the neural network can draw any picture related to the night: from a girl standing in the bedroom to walking in the cemetery under the moonlight, and the clip interrogator may not even pay attention to the presence of night in the picture, painting everything else, duplicating parts answer, and indicating a certain "artist" who could draw this picture, which does not contain a semantic load for us in this matter.
+Special mention deserves clip interrogator which is currently in use. It is designed for a poetic description of the picture, but does not capture its essence. For example, in response to a question to the day or night neural network, the neural network can draw any picture related to the night: from a girl standing in the bedroom to walking in the cemetery under the moonlight, and the clip interrogator may not even pay attention to the presence of night in the picture, painting everything else, duplicating parts of the answer, and indicating a certain 'artist' who could draw this picture, which does not contain a semantic load for us in this matter.
 
 Thus, another clip interrogator is required, which interprets the picture not artistically, but in connection with the request.
 
-At the moment, you can communicate with the sd neural network by asking a question in the txt2img block, sending the received image to img2img and activating the interrogate clip module if the meaning of the answer in the picture is unclear. At the same time, it must be understood that due to the lack of feedback, the neural network itself has no understanding of time and no learning, which actually turns the neural network into a Dory fish from the cartoon “Finding Nemo”, when she constantly forgot everything.
+At the moment, you can communicate with the SD neural network by asking a question in the txt2img block, sending the received image to img2img and activating the interrogate clip module if the meaning of the answer in the picture is unclear. At the same time, it must be understood that due to the lack of feedback, the neural network itself has no understanding of time and no learning, which actually turns the neural network into a Dory fish from the cartoon 'Finding Nemo', when she constantly forgot everything.
 
-If we give the neural network sd a connection between the current state and the previous ones, then we will give it the opportunity to exist in time, which means to develop and interact with us.
+If we give the SD neural network a connection between the current state and the previous ones, then we will give it the opportunity to exist in time, which means to develop and interact with us.
+
+
+# What will it give us?
+
+Creation of artificial intelligence that has imaginative thinking and does not require serious computing power. Possibility of its training with a minimum of expenses.
+
+And just a cool experiment in artifical intelligence.
+
+
+# TO DO
+
+1. Additional button in automatic1111 web ui for better performance of dialogue
+2. New CLIP for better interpretation of SD imagination
+3. Possibly new weights (ckpt) which pointed in mind not pictures of celebrities or cartoons
+4. Possibly new VAE for it
+5. Add feedback to the neural network and learning mechanism
+6. Everything you want

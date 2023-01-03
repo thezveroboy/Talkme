@@ -40,8 +40,8 @@ This 'dialogue' was built according to the following algorithm: I write the text
 
 # Dialogue example (proof of concept)
 
-I'm: hello there
 ![212358-3918082497](https://user-images.githubusercontent.com/14146520/210339144-1f640a72-6cb8-48db-a8df-a452a623054b.png)
+I'm: hello there
 the neural network draws a picture (1), interrogator interprets it as:
 'a cartoon character with a shirt on and a shirt on, with a caption that reads hello hello st martin, by Hiromu Arakawa'
 where we can highlight the words hello, the rest is actually a feature of the clip interrogator, for example, indicating the supposed author of the picture and doubling parts of the description ‘a shirt on’
